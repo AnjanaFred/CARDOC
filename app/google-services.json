@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197453130745",
+    "firebase_url": "https://cardoc-81db2.firebaseio.com",
+    "project_id": "cardoc-81db2",
+    "storage_bucket": "cardoc-81db2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197453130745:android:98532938e0109fd1a5eb28",
+        "android_client_info": {
+          "package_name": "com.example.cardoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197453130745-1uccrmh4phpn27rcr98qu0t8dator01s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9IrTagPdgDbIBniSqioy98fPdOexKtoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197453130745-1uccrmh4phpn27rcr98qu0t8dator01s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

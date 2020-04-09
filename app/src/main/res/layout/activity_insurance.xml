@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorback"
+    tools:context=".Insurance">
+
+    <ImageButton
+        android:id="@+id/backp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/colorback"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Add Your Insurance"
+        android:textAlignment="center"
+        android:textColor="@color/backcolor"
+        android:textSize="30dp"
+        app:fontFamily="@font/baloo_tamma"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="736dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/whitecolor"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="107dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Vehicle No"
+            android:textColor="@color/backcolor" />
+
+        <EditText
+            android:id="@+id/veno"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/backcolor"
+            android:backgroundTint="@color/backcolor" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text=" Insurance No"
+            android:textColor="@color/backcolor" />
+
+        <EditText
+            android:id="@+id/lnno"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/backcolor"
+            android:backgroundTint="@color/backcolor" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="107dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Owner Name"
+            android:textColor="@color/backcolor" />
+
+        <EditText
+            android:id="@+id/Owrname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/backcolor"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/backcolor" />
+
+        <TextView
+            android:id="@+id/datetext"
+            android:layout_width="127dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Reminder Date :"
+            android:textColor="@color/backcolor"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ipickdate"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/backcolor"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/idatebtn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorback"
+            android:text="SET DATE"
+            android:textColor="@color/backcolor" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="129dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Reminder Time"
+            android:textColor="@color/backcolor"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ipicktime"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/backcolor"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/itimebtn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorback"
+            android:text="SET TIME"
+            android:textColor="@color/backcolor" />
+
+
+        <Button
+            android:id="@+id/iokbtn"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorback"
+            android:text="ADD INSURANCE"
+            android:textColor="@color/backcolor" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
